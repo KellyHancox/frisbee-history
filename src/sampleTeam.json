@@ -1,0 +1,81 @@
+[
+    {"id": "MmQXPzSQ8cwMjXjkovHCYb8ilK%2fQ7%2bdPEgxUrHWmeW4%3d",
+    "name":"Autonomous",
+    "players": [
+        ["0", "Amanda Alexander", "S", "", "", "", "", "", ""],	 
+        ["2","Amanda Becker", "S", "", "", "", "", "", ""],
+        ["3","Anna Browne", "S", "", "", "", "", "", ""],	 
+         ["4", "Danielle DeRoseau", "S", "", "", "", "", "", ""],	 
+         ["6","Maeve Devlin", "S", "", "", "", "", "", ""],	 
+         ["7", "Acacia Farber-Krug", "S", "", "", "", "", "", ""],	 
+         ["8", "Keira Hale", "S", "", "", "", "", "", ""],	 
+         ["1","Martha Hale", "", "", "", "", "", "", ""], 
+         ["9","Jordan Hudgins", "S", "", "", "", "", "", ""],	 
+         ["10","Kelly Jones", "S", "", "", "", "", "", ""],	 
+         ["11","Anna Kilbourn", "S", "", "", "", "", "", ""],	 
+         ["13","Ashley Krebs", "S", "", "", "", "", "", ""],	 
+         ["14","Kara Ladle", "S", "", "", "", "", "", ""],	 
+         ["15","Allison Lofgren", "S", "", "", "", "", "", ""],	 
+         ["15","Darya Lollos", "", "", "", "", "", "", ""],
+         ["15","Kiersten Olsen", "S", "", "", "", "", "", ""],	 
+         ["15","Rebecca Ostman", "", "", "", "", "", "", ""],	 
+         ["15","Sophie Pebbles", "S", "", "", "", "", "", ""],	 
+         ["15","Jordyn Polito", "S", "", "", "", "", "", ""]	 ,
+         ["15","Lauren Quiroga", "S", "", "", "", "", "", ""],	 
+         ["15","Anne Reader", "S", "", "", "", "", "", ""],
+         ["15","Jordan Rosefigura", "S", "", "", "", "", "", ""],	 
+         ["15","Kayla Sippin", "", "", "", "", "", "", ""],
+         ["15","Ariel Stepniak", "S", "", "", "", "", "", ""], 
+         ["15","Sophie Stewart", "S", "", "", "", "", "", ""],
+         ["15","Yewande Taiwo", "S", "", "", "", "", "", ""]	 	
+    ],
+    "year": "2023",
+    "seasonRecord":"13-17",
+    "location": "Ann Arbor/Detroit",
+    "competitionLevel": "club",
+    "genderDivision": "Womens",
+    "facebook": "https://www.facebook.com/autonomousultimate/",
+    "notes": "Out of Ann Arbor and Detroit, Autonomous is focused on player growth, supporting our community, and enjoying play.",
+    "events": 
+        [
+            {"name": "Heavyweights 2023",
+            "link": "https://play.usaultimate.org/events/Heavyweights-2023/",
+            "games": [
+                {"date": "July 8",
+                "score": "7-6",
+                "scoreLink": "https://play.usaultimate.org/teams/events/match_report/?EventGameId=yobbsXJq7pwpAa4uK0HP7onhartPIW%2f1nU9LKKVprDk%3d",
+                "opponent": "Freshwater Ultimate",
+                "opponentLink": "https://play.usaultimate.org/teams/events/Eventteam/?TeamId=1GXbQ3LGlnh%2bpjRnbGplUYIgxs%2fQ386qPUuKSipYO%2bM%3d"},
+                {"date": "July 8",
+                "score": "2-13",
+                "opponent": "Wicked"},
+                {"date": "July 8",
+                "score": "1-13",
+                "opponent": "Indy Rogue"},
+                {"date": "July 8",
+                "score": "11-12",
+                "opponent": "Twisted Womxn"}
+            ]},
+            {"name": "TCT Select Flight East 2023",
+            "link": "https://play.usaultimate.org/events/TCT-Select-Flight-East-2023/",
+            "games": [
+                {"date": "July 29",
+                "score": "7-6",
+                "opponent": "Starling",
+                "opponentLink": "https://play.usaultimate.org/teams/events/Eventteam/?TeamId=1GXbQ3LGlnh%2bpjRnbGplUYIgxs%2fQ386qPUuKSipYO%2bM%3d"},
+                {"date": "July 29",
+                "score": "2-13",
+                "opponent": "Zephyr"},
+                {"date": "July 29",
+                "score": "1-13",
+                "opponent": "Brooklyn Book Club"},
+                {"date": "July 29",
+                "score": "11-12",
+                "opponent": "Dish"}
+
+            ]}
+        ]
+        
+    }
+
+]
