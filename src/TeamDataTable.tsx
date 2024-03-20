@@ -35,43 +35,43 @@ function createData(
 height, points, assists, ds, turns };
 }
 
-// const rows = [
-//     createData("0", "Amanda Alexander", "S", "", "", "", "", "", ""),	 
-//     createData("2","Amanda Becker", "S", "", "", "", "", "", ""),
-//     createData("3","Anna Browne", "S", "", "", "", "", "", ""),	 
-//      createData("4", "Danielle DeRoseau", "S", "", "", "", "", "", ""),	 
-//      createData("6","Maeve Devlin", "S", "", "", "", "", "", ""),	 
-//      createData("7", "Acacia Farber-Krug", "S", "", "", "", "", "", ""),	 
-//      createData("8", "Keira Hale", "S", "", "", "", "", "", ""),	 
-//      createData("1","Martha Hale", "", "", "", "", "", "", ""), 
-//      createData("9","Jordan Hudgins", "S", "", "", "", "", "", ""),	 
-//      createData("10","Kelly Jones", "S", "", "", "", "", "", ""),	 
-//      createData("11","Anna Kilbourn", "S", "", "", "", "", "", ""),	 
-//      createData("13","Ashley Krebs", "S", "", "", "", "", "", ""),	 
-//      createData("14","Kara Ladle", "S", "", "", "", "", "", ""),	 
-//      createData("15","Allison Lofgren", "S", "", "", "", "", "", ""),	 
-//      createData("15","Darya Lollos", "", "", "", "", "", "", ""),
-//      createData("15","Kiersten Olsen", "S", "", "", "", "", "", ""),	 
-//      createData("15","Rebecca Ostman", "", "", "", "", "", "", ""),	 
-//      createData("15","Sophie Pebbles", "S", "", "", "", "", "", ""),	 
-//      createData("15","Jordyn Polito", "S", "", "", "", "", "", "")	 ,
-//      createData("15","Lauren Quiroga", "S", "", "", "", "", "", ""),	 
-//      createData("15","Anne Reader", "S", "", "", "", "", "", ""),
-//      createData("15","Jordan Rosefigura", "S", "", "", "", "", "", ""),	 
-//      createData("15","Kayla Sippin", "", "", "", "", "", "", ""),
-//      createData("15","Ariel Stepniak", "S", "", "", "", "", "", ""), 
-//      createData("15","Sophie Stewart", "S", "", "", "", "", "", ""),
-//      createData("15","Yewande Taiwo", "S", "", "", "", "", "", "")	 	
-// ];
-const rows = [];
+const rows = [
+    createData("0", "Amanda Alexander", "S", "", "", "", "", "", ""),	 
+    createData("2","Amanda Becker", "S", "", "", "", "", "", ""),
+    createData("3","Anna Browne", "S", "", "", "", "", "", ""),	 
+     createData("4", "Danielle DeRoseau", "S", "", "", "", "", "", ""),	 
+     createData("6","Maeve Devlin", "S", "", "", "", "", "", ""),	 
+     createData("7", "Acacia Farber-Krug", "S", "", "", "", "", "", ""),	 
+     createData("8", "Keira Hale", "S", "", "", "", "", "", ""),	 
+     createData("1","Martha Hale", "", "", "", "", "", "", ""), 
+     createData("9","Jordan Hudgins", "S", "", "", "", "", "", ""),	 
+     createData("10","Kelly Jones", "S", "", "", "", "", "", ""),	 
+     createData("11","Anna Kilbourn", "S", "", "", "", "", "", ""),	 
+     createData("13","Ashley Krebs", "S", "", "", "", "", "", ""),	 
+     createData("14","Kara Ladle", "S", "", "", "", "", "", ""),	 
+     createData("15","Allison Lofgren", "S", "", "", "", "", "", ""),	 
+     createData("15","Darya Lollos", "", "", "", "", "", "", ""),
+     createData("15","Kiersten Olsen", "S", "", "", "", "", "", ""),	 
+     createData("15","Rebecca Ostman", "", "", "", "", "", "", ""),	 
+     createData("15","Sophie Pebbles", "S", "", "", "", "", "", ""),	 
+     createData("15","Jordyn Polito", "S", "", "", "", "", "", "")	 ,
+     createData("15","Lauren Quiroga", "S", "", "", "", "", "", ""),	 
+     createData("15","Anne Reader", "S", "", "", "", "", "", ""),
+     createData("15","Jordan Rosefigura", "S", "", "", "", "", "", ""),	 
+     createData("15","Kayla Sippin", "", "", "", "", "", "", ""),
+     createData("15","Ariel Stepniak", "S", "", "", "", "", "", ""), 
+     createData("15","Sophie Stewart", "S", "", "", "", "", "", ""),
+     createData("15","Yewande Taiwo", "S", "", "", "", "", "", "")	 	
+];
+// const rows = [];
 
-function BasicTable({players}) {
-    console.log(players)
-    const rows: data[] = [];
-    for(var player in players.players){
-        rows.push(createData(player[0], player[1], player[2],
-            player[3], player[4], player[5], player[6], player[7], player[8]))
-    }
+function TeamDataTable() {
+    // console.log(players)
+    // const rows: data[] = [];
+    // for(var player in players.players){
+    //     rows.push(createData(player[0], player[1], player[2],
+    //         player[3], player[4], player[5], player[6], player[7], player[8]))
+    // }
 
     console.log(rows)
   return (
@@ -121,4 +121,4 @@ function BasicTable({players}) {
   );
 }
 
-export default BasicTable;
+export default TeamDataTable;

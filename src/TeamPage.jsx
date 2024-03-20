@@ -1,8 +1,10 @@
 import Container from '@mui/material/Container';
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import { Paper, Grid, Item } from '@mui/material';
-import BasicTable from './Table';
+import { Paper, Grid, Item, CardHeader } from '@mui/material';
+import TeamDataTable from './TeamDataTable';
+import TeamGamesTable from './TeamGamesTable';
+
 
 let team = require('./sampleTeam.json');
 let teamData = team[0]
@@ -13,8 +15,6 @@ function TeamPage() {
 
     // const location = useLocation();
     // console.log(location);
-
-    
 
     // useEffect(() => {
     //     setData(team[0])
@@ -43,32 +43,14 @@ function TeamPage() {
                     </Paper>
                 </Grid>
                 <br />
+
                 <Grid item xs={8}>
-                    
-                    <BasicTable players={teamData.players}/>
-                    {/* {teamData.players?.map(player => player[0])} */}
+                    {/* <CardHeader title={"Hello"}></CardHeader> */}
+                    <TeamDataTable players={teamData.players}/>
                 </Grid>
 
-
                 <Grid item xs={4}>
-                    <h3>Season Record: {teamData.seasonRecord}</h3>
-                    Events:
-                    {teamData.events && teamData.events.map(
-                        event => <div key={event.name}>
-                            <a href={event.link}>{event.name}</a>
-
-                            {event.games.map(game =>
-                                <div key={game.date + "/" + game.opponent}>
-                                    <span className="mr-1">{game.date}</span>
-                                    <span>  </span>
-                                    <a href={game.scoreLink}>{game.score}</a>
-                                    <span>  </span>
-                                    <a hef={game.opponentLink}>{game.opponent}</a>
-                                </div>
-                            )}
-
-                        </div>
-                    )}
+                    <TeamGamesTable></TeamGamesTable>
                 </Grid>
             </Grid>
         </Container>

@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.Game-List-Item-Text {
+  width:33%;
+  height:fit-content;
+}
+
+.Game-List-Item {
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+}
+
+.Game-Line-Item {
+  border-bottom: solid 1px;
+  border-color: rgba(0,0,0,0.2);
+}
